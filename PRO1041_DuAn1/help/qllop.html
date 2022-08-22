@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý lớp học</title>
+    <link href="css/qllop.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="bot">
+        <div class="header">
+            <div class="logo">
+                <img src="img/logo_fpt.jpg" />
+            </div>
+            <div class="banner">
+                <img src="http://magazinesusa.com/wp-content/uploads/2020/12/web-design.jpg" />
+            </div>
+        </div>
+        <div class="nav-menu">
+            <nav class="contener">
+                <ul class="main-manu">
+                    <li><a href="">TRANG CHỦ</a></li>
+                    <li><a href="">GIỚI THIỆU</a></li>
+                    <li><a href="">HƯỚNG DẪN</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav">
+            <div class="nav-left">
+                <div class="one">
+                    <img src="img/list.png" width="20px" height="20px" alt="" class="list">
+                    <div class="title">
+                        DANH MỤC QUẢN LÝ
+                    </div>
+                </div>
+                <div class="two">
+                    <a style="text-decoration: none; " href="#">Quản lý sinh viên</a><br />
+                    <hr />
+                    <br />
+                    <a style="color: rgb(214, 9, 9);" href="#">Quản lý lớp</a><br />
+                    <hr />
+                    <br />
+                    <a style="text-decoration: none" href="#">Quản lý môn học</a><br />
+                    <hr />
+                    <br />
+                    <a style="text-decoration: none" href="#">Quản lý khoa</a><br />
+                    <hr />
+                    <br />
+                    <a style="text-decoration: none" href="#">Quản lý giảng viên</a><br />
+                    <hr />
+                    <br />
+                    <a style="text-decoration: none" href="#">Quản lý điểm</a><br />
+                    <hr />
+                    <br />
+                    <a style="text-decoration: none" href="#">Quản lý thống kê</a><br />
+                    <hr />
+                    <br />
+                    <a style="text-decoration: none" href="#">Quản lý đổi mật khẩu</a><br />
+                    <hr />
+                </div>
+            </div>
+            <div class="nav-right">
+                <form>
+                    <div style="display: flex;">
+                        <div class="formmer">
+                            <div>
+                                <label>Mã khoa:</label><br />
+                                <select name="maKhoa">
+                                    <option value="0">Hãy chọn mã khoa</option>
+                                    <option value="1">Công nghệ thông tin</option>
+                                    <option value="2">Kinh tế</option>
+                                    <option value="3">Quản trị kinh doan</option>
+                                </select>
+                            </div>
+                            <br />
+                            <br />
+                            <div>
+                                <label>Mã lớp:</label><br />
+                                <input name="ma_lop" id="maLop" />
+                            </div>
+                            <br />
+                            <br />
+                            <div>
+                                <label>Tên lớp:</label><br />
+                                <input name="ten_lop" id="tenLop" />
+                            </div>
+                        </div>
+                        <div class="chucnang">
+                            <button>Thêm</button><br />
+                            <button>Sửa</button><br />
+                            <button>Xóa</button><br />
+                            <button>Mới</button><br />
+                        </div>
+                    </div>
+
+                    <div class="dieuhuong">
+                        <button>|<< </button>
+                        <button><<</button>
+                        <button>>></button>
+                        <button>>|</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="p">
+                <img src="img/chu.PNG" />
+            </div>
+            <div class="o">
+                <div style="font-size: 22px; padding-bottom: 15px;">THÔNG TIN LIÊN HỆ</div>
+                <div style="font-size: 14px;">Trụ sở chính Tòa nhà FPT Polytechnic, Phố Trịnh Văn Bô, Nam Từ Liêm, Hà Nội</div>
+                Email:<a style="text-decoration: none;" href="#">caodang@fpt.edu.vn</a><br />
+                Fanpage:<a style="text-decoration: none;" href="https://www.facebook.com/fpt.poly">https://www.facebook.com/fpt.poly</a><br />               
+            </div>
+            <div class="g">
+                <div style="font-size: 22px;">CÂU HỎI</div>
+                <textarea id="cauHoi" rows="9" cols="70" placeholder="Tôi muốn hỏi là..."></textarea> <br />
+                <button id="send">Gửi</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

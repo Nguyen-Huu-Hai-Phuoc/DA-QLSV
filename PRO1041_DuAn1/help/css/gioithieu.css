@@ -1,0 +1,140 @@
+.bot{
+    margin: 0px -8px  -8px  -8px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    padding-left: 200px;
+
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 200px;
+}
+/*   MENU  */
+.nav .contener{
+    margin: 0px auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-items: center; */
+}
+.nav nav{
+    background-color: rgb(38, 51, 65);
+}
+/* .logo{
+    padding: 5px 5px 5px 30px;
+}
+.logo img{
+    max-width: 100px;
+    height: auto;
+} */
+.main-manu{
+    display: flex;
+    list-style: none;
+    margin:0px;
+    padding-left: 200px;
+}
+.main-manu li a{
+    color: #f8f8f8;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+}
+.main-manu li a:hover{
+    text-decoration-line: underline;
+}
+
+.body{
+    width: 1000px;
+    height: auto;
+    border: 1px solid rgb(238, 236, 236);
+    border-radius: 10px;
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: 20% 10% 70%;
+    background-color: rgb(231, 230, 230);
+}
+#find{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 30px;
+}
+.search{
+    margin-top: 20px;
+    height: 36px;
+    background-color: cyan;
+}
+#fins{
+    background-color: brown;
+    margin-top: 20px;
+}
+.title{
+    text-align: justify; padding-right: 20px;
+}
+.one{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li{
+    padding: 10px 0px;
+}
+
+/* FOOTER */
+.footer{
+    background-color:rgb(38, 51, 65);
+    height: 200px;
+    clear: left;
+    line-height: 30px;
+    text-align: center;
+    
+}
+.footer .p, .o , .g{
+    float: left;
+    color: snow;
+    width: 30%;
+}
+.footer .p img{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+ .footer .o, .g{
+    margin-top: 30px;
+    text-align: left;
+ }
+ .footer .o a{
+     color: rgb(23, 230, 209);
+ }
+ .footer .g{
+    margin-left: 80px;
+ }
+ .footer .g #cauHoi{
+    width: 250px;
+    height: 50px;
+ }
+
+ .footer .g #send{
+    width: 100px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(185, 138, 8);
+ }
+
+ .footer .g #send:hover{
+     background-color:rgb(4, 110, 77);
+     color: red;
+     font-style: oblique;
+     font-size: 23px;
+ }

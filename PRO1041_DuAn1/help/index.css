@@ -1,0 +1,152 @@
+body{
+    font-family: Tahoma;
+    width: 1000px;
+    margin: 0px auto;  
+    background-image: url('img/img_dong.gif');
+    background-size: inherit;
+    /* background-position-y: -100px; */
+}
+
+/* HEADER */
+.header{
+    height:auto;
+    margin-bottom: 5px;
+ 
+}
+.header .redd img{
+    height: auto;
+    width: 100%;
+}
+.header .redd marquee{
+    color: brown;
+}
+/******** MENU *******/
+.header .contener{
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-items: center; */
+}
+.header nav{
+    background-color: rgb(38, 51, 65);
+}
+/* .logo{
+    padding: 5px 5px 5px 30px;
+}
+.logo img{
+    max-width: 100px;
+    height: auto;
+} */
+.main-manu{
+    display: flex;
+    list-style: none;
+    margin:0px;
+    padding-left: 290px;
+}
+.main-manu li a{
+    color: #f8f8f8;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+}
+.main-manu li a:hover{
+    text-decoration-line: underline;
+}
+
+/* NAV */
+.body{
+    margin-top: 10px;
+}
+
+.nav .nav-left{
+    width:295px;
+    min-height: 400px;
+    margin-right: 5px;
+    background-color:mediumturquoise;
+    float:left;  
+    margin-bottom: 5px;   
+}
+.nav .nav-left .one{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px;
+}
+.nav .nav-left .one .list{
+    padding-left: 35px;
+}
+.one .title {
+    padding-right: 30px;
+    font-size: 16px;
+}
+.nav .nav-left .two{
+    margin-left: 10px;
+    
+}
+.nav .nav-left .two a{
+    color: black;
+}
+.nav .nav-left .two a:hover{
+    font-size: 6mm;
+    color: red;
+}
+/*-------------------------------*/
+.nav .nav-right{
+    width: 695px;
+    margin-left: 5px;
+    float: left;  
+}
+.nav .nav-right img{
+    width: 695px;
+    min-height: 492px;
+}
+
+/* FOOTER */
+.footer{
+    background-color:rgb(38, 51, 65);
+    height: 200px;
+    clear: left;
+    line-height: 30px;
+    text-align: center;
+}
+.footer .p, .o , .g{
+    float: left;
+    color: snow;
+    width: 30%;
+}
+.footer .p img{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+ .footer .o, .g{
+    margin-top: 30px;
+    text-align: left;
+ }
+ .footer .o a{
+     color: rgb(23, 230, 209);
+ }
+ .footer .g{
+    margin-left: 80px;
+ }
+ .footer .g #cauHoi{
+    width: 250px;
+    height: 50px;
+ }
+
+ .footer .g #send{
+    width: 100px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(185, 138, 8);
+ }
+
+ .footer .g #send:hover{
+     background-color:rgb(4, 110, 77);
+     color: red;
+     font-style: oblique;
+     font-size: 23px;
+ }
+

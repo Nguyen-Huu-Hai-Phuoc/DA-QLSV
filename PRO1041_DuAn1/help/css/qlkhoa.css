@@ -1,0 +1,153 @@
+.bot{
+    margin: 0px -8px  -8px  -8px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    padding-left: 200px;
+
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 200px;
+}
+/*   MENU  */
+.nav-menu .contener{
+    margin: 0px auto;
+    display: flex;
+}
+.nav-menu nav{
+    background-color: rgb(38, 51, 65);
+}
+
+.main-manu{
+    display: flex;
+    list-style: none;
+    margin:0px;
+    padding-left: 200px;
+}
+.main-manu li a{
+    color: #f8f8f8;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+}
+.main-manu li a:hover{
+    text-decoration-line: underline;
+}
+/*********** NAV ***************/
+.nav{
+    display: flex;
+}
+.nav .nav-left{
+    width:295px;
+    min-height: 400px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color:mediumturquoise; 
+    margin-bottom: 5px;   
+}
+.nav .nav-left .one{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px;
+}
+.nav .nav-left .one .list{
+    padding-left: 35px;
+}
+.one .title {
+    padding-right: 30px;
+    font-size: 16px;
+}
+.nav .nav-left .two{
+    margin-left: 10px;
+    
+}
+.nav .nav-left .two a{
+    color: black;
+}
+.nav .nav-left .two a:hover{
+    font-size: 6mm;
+    color: red;
+}
+.nav-right{
+    max-width: 700px;
+    margin: 100px 100px 10px 400px;
+}
+.chucnang{
+    margin-left: 60px;
+}
+.chucnang button{
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.dieuhuong button{
+    font-weight: bold;
+    margin-right: 15px;
+    width: 40px;
+}
+
+/*********** FOOTER **************/
+.footer{
+    background-color:rgb(38, 51, 65);
+    height: 200px;
+    clear: left;
+    line-height: 30px;
+    text-align: center;
+    
+}
+.footer .p, .o , .g{
+    float: left;
+    color: snow;
+    width: 30%;
+}
+.footer .p img{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+ .footer .o, .g{
+    margin-top: 30px;
+    text-align: left;
+ }
+ .footer .o a{
+     color: rgb(23, 230, 209);
+ }
+ .footer .g{
+    margin-left: 80px;
+ }
+ .footer .g #cauHoi{
+    width: 250px;
+    height: 50px;
+ }
+
+ .footer .g #send{
+    width: 100px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(185, 138, 8);
+ }
+
+ .footer .g #send:hover{
+     background-color:rgb(4, 110, 77);
+     color: red;
+     font-style: oblique;
+     font-size: 23px;
+ }
